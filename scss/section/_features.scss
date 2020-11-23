@@ -77,3 +77,26 @@
     color: #ffffff;
     margin-bottom: 45px;
   }
+  @media screen and (max-width:1100px) {
+    .features__information-wrap {
+      flex-direction: column;
+    }
+    .features__picture {
+      margin-right: 0px;
+      margin: 0px auto;
+    }
+    .features__img {
+      width: 100%;
+      margin-bottom: 70px;
+    }
+    .features__wrap {
+      max-width: 602px;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 764px) {
+    .features__subtext {
+      max-width: 400px;
+      margin: 0px auto;
+    }
+  }

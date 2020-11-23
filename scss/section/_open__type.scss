@@ -7,7 +7,8 @@
     justify-content: center;
     align-items: center;
     background: #343434;
-    width: 1178px;
+    max-width: 1178px;
+    width: 100%;
     margin: 0px auto;
     border-radius: 33px;
     margin-bottom: 80px;
@@ -36,4 +37,28 @@
     background: #4452FE;
     border: 1px solid #4452FE;
   }
-  
+  .open__type-icon {
+    width: 100%;
+  }
+  @media screen and (max-width: 1200px) {
+  .open__type {
+    padding: 0px 20px;
+    }
+  }
+  @media screen and (max-width: 888px) {
+    .open__type-content {
+      flex-direction:column;
+    }
+    .open__type-title {
+      max-width:336px;
+      text-align:center;
+    }
+   .open__type-inner {
+     text-align:center;
+   }
+  }
+  @media screen and (max-width: 505px) {
+    .open__type-inner {
+      padding: 61px 0px;
+    }
+  }

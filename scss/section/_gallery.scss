@@ -65,3 +65,38 @@
     color: #ffffff;
     border: 1px solid #FFFFFF;
   }
+  @media screen and (max-width:1200px) {
+    .gallery__picture {
+      width: 100%;
+      object-fit: contain;
+    }
+    .midle {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:1100px) {
+    .gallery__list-items {
+      display: none;
+    }
+    .gallery__img {
+      margin-right: 10px;
+    }
+  }
+  @media screen and (max-width:980px) {
+    .gallery__content-wrap {
+      max-width: 591px;
+      width: 100%;
+    }
+    .gallery__list-item {
+      flex-direction: column;
+    }
+    .gallery__img {
+      margin-right: 0px;
+      margin-bottom: 33px;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .gallery__text {
+      max-width:350px;
+    }
+  }

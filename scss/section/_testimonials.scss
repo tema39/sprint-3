@@ -69,3 +69,21 @@
     letter-spacing: 0.2px;
     color: #ffffff;
   }
+  @media screen and (max-width:888px) {
+   .testimonials__list {
+     max-width: 805px;
+     width: 100%;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+   .testimonials__list-item {
+     margin-right: 0px;
+   }
+  } 
+  @media screen and (max-width:774px) {
+    .testimonials__list {
+      flex-direction:column;
+      max-width: 352px;
+      width: 100%;
+    }
+  }

@@ -1,3 +1,11 @@
+@import "./section/_work-speed.scss";
+@import "./section/_features.scss";
+@import "./section/_contents.scss";
+@import "./section/_gallery.scss";
+@import "./section/_partners.scss";
+@import "./section/_testimonials.scss";
+@import "./section/_open__type.scss";
+@import "./section/_footer.scss";
 body {
   background: #181818;
   padding: 0px;
@@ -19,11 +27,3 @@ h4,
 h5 {
   margin: 0px;
 }
-@import "./section/_work-speed.scss";
-@import "./section/_features.scss";
-@import "./section/_contents.scss";
-@import "./section/_gallery.scss";
-@import "./section/_partners.scss";
-@import "./section/_testimonials.scss";
-@import "./section/_open__type.scss";
-@import "./section/_footer.scss";

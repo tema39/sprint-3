@@ -50,3 +50,28 @@
     color: #ffffff;
     margin-bottom: 50px;
   }
+  @media screen and (max-width:980px) {
+    .partners__title-wrap {
+      max-width: 591px;
+      width: 100%;
+    }
+    .partners__subtitle-text {
+      width: 100%;
+    }
+    .partners__list {
+      max-width: 500px;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .partners__list-item {
+      margin-bottom: 57px;
+    }
+  }
+  @media screen and (max-width:764px) {
+    .partners__subtitle-text {
+      max-width: 329px;
+      margin:0px auto;
+      padding-bottom: 64px;
+    }
+  }
