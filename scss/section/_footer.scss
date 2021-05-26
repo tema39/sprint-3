@@ -87,15 +87,16 @@
 .networks__img {
   margin-right: 32px;
 }
-@media screen and (max-width:970px) {
+@media screen and (max-width: 970px) {
   .categories__wrap {
     padding: 0px 10px;
   }
 }
-@media screen and (max-width:888px) {
+@media screen and (max-width: 888px) {
   .footer {
     flex-direction: column;
-     padding-left: 115px;
+    padding-left: 40px;
+    padding-top: 0px;
   }
   .categories__wrap {
     flex-direction: column;

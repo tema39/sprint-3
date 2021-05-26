@@ -520,9 +520,10 @@
   display: flex;
   list-style: none;
   margin-bottom: 55px; }
-
-.partners__list-item {
-  margin-right: 74px; }
+  .partners__list .partners__list-item {
+    margin-right: 74px; }
+  .partners__list.closed {
+    display: none; }
 
 .partners__list-item:nth-child(6) {
   margin-right: 0px; }
@@ -800,7 +801,8 @@
 @media screen and (max-width: 888px) {
   .footer {
     flex-direction: column;
-    padding-left: 115px; }
+    padding-left: 40px;
+    padding-top: 0px; }
   .categories__wrap {
     flex-direction: column; }
   .fingertipe__list {

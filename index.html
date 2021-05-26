@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <section class="work__speed">
@@ -220,9 +220,19 @@
           </a>
         </li>
       </ul>
-      <a class="partners__link-button" href="">
-        <button class="partners__button">All Partners</button>
-      </a>
+      <ul class="partners__list js-partners-list closed">
+        <li class="partners__list-item">
+          <a class="partners__link" href="">
+            <img class="partners__icon" src="./pictures/logos_airbnb.svg" />
+          </a>
+        </li>
+        <li class="partners__list-item">
+          <a class="partners__link" href="">
+            <img class="partners__icon" src="./pictures/logos_ibm.svg" />
+          </a>
+        </li>
+      </ul>
+       <button class="partners__button">All Partners</button>
     </section>
     <section class="testimonials">
       <h2 class="testimonials__title">Testimonials</h2>
